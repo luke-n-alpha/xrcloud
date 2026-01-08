@@ -3,7 +3,7 @@
 * As of February 2025, BELIVVR has decided not to continue further development due to business challenges and has released it as open source.
 * This is a detailed documentation service for partners who have been provided with development services, and it aims to contribute to the web metaverse open-source ecosystem, albeit in a small way.
 * Please note that we did not have the capacity to send separate PRs to HubsFoundation, and the XRCLOUD service has secured servers that can be operated until September 2025, but there are no confirmed plans for the service thereafter. Technical support will be provided to partners who have been promised service until December 2025.
-* For further inquiries, please contact the former CEO of BELIVVR, Byungseok Yang (fstory97@gmail.com).
+* For further inquiries, please contact the former CEO of BELIVVR, Byungseok Yang (luke.yang@cafelua.com).
 
 # Installation and Operation
 * This project has dependencies on multiple subRepository projects. The XRCLOUD project follows the same license, and projects forked from hubsFoundation follow the licenses of their original projects.
@@ -17,7 +17,7 @@
   - While this software is released under the Apache 2.0 License, this license does not provide complete immunity from patent claims.
   - BELIVVR holds several patents related to certain functionalities within this system.
   - Separate patent licenses may be required for commercial use of features covered by these patents.
-  - For patent licensing inquiries, please contact: fstory97@gmail.com
+  - For patent licensing inquiries, please contact: luke.yang@cafelua.com
 * For complete license and patent information, please refer to the LICENSE and NOTICE files.
 
 # Frameworks Used in XRCLOUD
@@ -131,4 +131,4 @@ avatarUrl=https://belivvr.github.io/files/Avatars/VVRI_SD_Ani_Ribbon_ReAnimaion_
  * For space (Scene/Spoke) data available according to CCL, please refer to [Space Resources](./docs/spoke_files/README.md).
  
 ## Additional Technical Inquiries
-* For additional technical inquiries, please contact the former CEO of BELIVVR, Luke Yang (fstory97@gmail.com).
+* For additional technical inquiries, please contact the former CEO of BELIVVR, Luke Yang (luke.yang@cafelua.com).

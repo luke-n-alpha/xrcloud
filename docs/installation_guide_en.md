@@ -5,7 +5,7 @@
 * As of February 2025, BELIVVR is releasing this as open source due to business difficulties and has no plans for further development.
 * This detailed documentation is for our existing service partners and aims to contribute to the web metaverse open source ecosystem.
 * Please note that we did not have the resources to submit PRs to HubsFoundation. While we have secured servers to operate the XRCLOUD service until September 2025, there are no confirmed plans for service beyond that date. We will provide technical support to partners who have been promised service until December 2025.
-* For additional inquiries, please contact former BELIVVR CEO Byungseok Yang (fstory97@gmail.com).
+* For additional inquiries, please contact former BELIVVR CEO Byungseok Yang (luke.yang@cafelua.com).
 
 # Purpose of This Document
 * This guide provides installation and operation instructions for the XRCLOUD project.
