@@ -25,7 +25,7 @@
 ## Announcements for Individual Rooms and All Rooms
 * Administrators can send announcements to individual rooms or all rooms through the admin room management tool. This feature allows sending chat announcements without entering the room.
    - As this wasn't developed into an official XRCLOUD API, separate documentation wasn't created.
-   - You need to use custom APIs added in BELIVVR's reticulum project (https://github.com/belivvr/reticulum)
+   - You need to use custom APIs added in BELIVVR's reticulum project (https://github.com/luke-n-alpha/reticulum)
    - Please analyze and use the [source code](./cnu_reticulum/) in TypeScript that we've attached.
 
    <img src="./images/cnu_notice.png" alt="CNU Notice"/>
@@ -55,7 +55,7 @@
 * When entering personal spaces, Medal objects are displayed differently based on each student's academic achievements.
 
      - As this wasn't developed into an official XRCLOUD API, separate documentation wasn't created.
-   - You need to use the EmptyFrame component from BELIVVR's Spoke project (https://github.com/belivvr/spoke) and custom APIs added in BELIVVR's reticulum project (https://github.com/belivvr/reticulum)
+   - You need to use the EmptyFrame component from BELIVVR's Spoke project (https://github.com/luke-n-alpha/spoke) and custom APIs added in BELIVVR's reticulum project (https://github.com/luke-n-alpha/reticulum)
    - Please analyze and use the [source code](./cnu_reticulum/) in TypeScript that we've attached.
 
      <img src="./images/cnu_empty_frame.png" alt="CNU Empty Frame"/>

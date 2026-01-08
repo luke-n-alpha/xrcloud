@@ -1,6 +1,6 @@
 # 프로젝트 소개 (한글) | [English](./README.md)
  * 본 프로젝트는 [BELIVVR](https://belivvr.com)에서 [hubs](https://github.com/Hubs-Foundation) 프로젝트를 fork하여 추가 기능을 개발하고, Hubs의 Room, Scene의 자원들을 회원제로 별도의 회원제 클라우드로 서비스를 제공하는 것을 목표 했던 XRCLOUD(https://xrcloud.app) 오픈소스 프로젝트입니다.
- * 2025년 2월, BELIVVR는 기업의 운영이 어려워 추가 개발을 진행하지 않으므로 오픈 소스(https://github.com/belivvr/xrcloud) 로 공개 합니다.
+ * 2025년 2월, BELIVVR는 기업의 운영이 어려워 추가 개발을 진행하지 않으므로 오픈 소스(https://github.com/luke-n-alpha/xrcloud) 로 공개 합니다.
  * 기존 개발 서비스를 해드린 파트너들을 위한 상세 문서화 서비스이며, 작게나마 웹 메타버스 오픈소스 생태계에 기여를 하기 위함입니다.
  * HubsFoundation에 별도의 PR을 보낼 여력은 없었으니 참고 바라며 XRCLOUD 서비스는 2025년 9월까지 운용할 수 있는 서버를 확보한 상황이나 이후 서비스 계획에 대해서는 확정된 바가 없습니다. 2025년 12월까지 서비스를 약속한 파트너들에게는 기술 지원을 진행합니다.
  * 추가 문의는 BELIVVR의 대표 였던 양병석 대표(luke.yang@cafelua.com)에게 문의 바랍니다.
@@ -46,7 +46,7 @@
 
   ## 개발자를 위한 OpenAPI 서비스 (xrcloud) ###
    * 3rd Party의 프로젝트, 씬, 룸 관리를 하기 위한 API를 제공합니다.
-     API에 대한 설명은 [XRCLOUD API 문서]([XRCLOUD API Documentation](https://github.com/belivvr/xrcloud-backend/docs/api/en/api.md)을 참고 바랍니다.
+     API에 대한 설명은 [XRCLOUD API 문서]([XRCLOUD API Documentation](https://github.com/luke-n-alpha/xrcloud-backend/docs/api/en/api.md)을 참고 바랍니다.
    * 3rdParty개발자의 플랫폼에서 별도의 유저관리를 통해 창작 플랫폼을 만들 수 있는 3rdParty의 회원에 관한 API도 제공합니다.
    * 호스트와 개스트 유저를 나누어 차등 권한을 줄 수 있습니다.
    * 만료되는 Private URL과 지속 공개 가능한 Public URL을 생성할 수 있습니다.    
@@ -69,7 +69,7 @@
 
 
   ## 풀바디(전신) 아바타 (hubs)
-  * **[BELIVVR의 오픈소스 풀바디 아바타 에디터](https://github.com/belivvr/xrcloud-avatar-editor)**  지원
+  * **[BELIVVR의 오픈소스 풀바디 아바타 에디터](https://github.com/luke-n-alpha/xrcloud-avatar-editor)**  지원
     * 이 아바타 프로젝트는 Bit-ecs를 고려하여 설계되지 않아 Hubs의 모든 기능을 지원하지는는 않습니다.
 
      <img src="./docs/images/xrcloud_fullbody.png" alt="XRCLOUD서비스의 풀바디 아바타">

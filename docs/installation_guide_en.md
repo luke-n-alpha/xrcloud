@@ -38,40 +38,40 @@
 ## XRCLOUD Projects
 ### XRCLOUD Backend Project
 * Handles API documentation and backend APIs. Developed with Nest.js framework.
-* Repository: https://github.com/belivvr/xrcloud-backend.git
+* Repository: https://github.com/luke-n-alpha/xrcloud-backend.git
 
 ### XRCLOUD Frontend Project
 * Handles frontend services like XRCLOUD dashboard. Developed with Next.js framework.
-* Repository: https://github.com/belivvr/xrcloud-frontend.git
+* Repository: https://github.com/luke-n-alpha/xrcloud-frontend.git
 
 ### XRCLOUD NGINX Project
 * Handles XRCLOUD network services. Developed with NGINX, connects external access with internal Docker containers.
-* Repository: https://github.com/belivvr/xrcloud-nginx.git
+* Repository: https://github.com/luke-n-alpha/xrcloud-nginx.git
 
 ## Hubs Projects
 ### Hubs All in One Project
 * Handles overall installation and operation of Hubs-related Docker containers.
 * Creates necessary environment configuration files and handles installation/deployment.
-* https://github.com/belivvr/hubs-all-in-one.git
+* https://github.com/luke-n-alpha/hubs-all-in-one.git
 
 ### Dialog Project
 * Handles Hubs' WebRTC service, managing user room connections and network relay using SFU method. Based on Mediasoup.
 * While horizontal scaling development is limited, it can run on a separate server from the Hubs project to handle user growth.
-* https://github.com/belivvr/dialog.git
+* https://github.com/luke-n-alpha/dialog.git
 
 ### Hubs Project
 * Handles Hubs' 2D environment and 3D room environment frontend services. Based on A-frame and Bit-ECS.
 * Customized to include various features developed by BELIVVR.
-* https://github.com/belivvr/hubs.git
+* https://github.com/luke-n-alpha/hubs.git
 
 ### Spoke Project
 * 3D web editor service for creating Hubs scenes. Includes features like Inline-View developed by BELIVVR.
-* https://github.com/belivvr/spoke.git
+* https://github.com/luke-n-alpha/spoke.git
 
 ### Reticulum Project
 * Developed with Phoenix framework using Erlang, manages Hubs connection channels and processes various user events.
 * Contains additional code for logging and other features developed by BELIVVR.
-* https://github.com/belivvr/reticulum.git
+* https://github.com/luke-n-alpha/reticulum.git
 
 # Installation Method
 

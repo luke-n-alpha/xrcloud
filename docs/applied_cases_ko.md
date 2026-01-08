@@ -26,7 +26,7 @@
  ## 룸 별, 전체 룸에 대한 공지사항 전달
   * 어드민의 룸 관리도구 및 룸 별 전체 룸에 관리자가 공지사항을 보낼 수 있습니다. 룸에 입장하지 않고 채팅으로 공지사항을 보내는 기능입니다. 
    - XRCLOUD의 공식 API개발까지는 진행하지 못하여 별도의 문서는 작성하지 않았습니다.
-   - BELIVVR의 reticulum 프로젝트(https://github.com/belivvr/reticulum)에서 추가한 커스텀 API를 이용해야 합니다.
+   - BELIVVR의 reticulum 프로젝트(https://github.com/luke-n-alpha/reticulum)에서 추가한 커스텀 API를 이용해야 합니다.
    - 관련한 TypeScript의 소스를 첨부 드리니 사용하실 분들을 해당 [소스코드](./cnu_reticulum/)를 분석해서 사용하시기 바랍니다.
    
      <img src="./images/cnu_notice.png" alt="CNU 공지사항"/>
@@ -58,7 +58,7 @@
 * 나의 공간으로 들어가면 학생별로 학업 성취도에 따라 Medal object를 다르게 표현하도록 하였습니다. 
      
      - XRCLOUD의 공식 API개발까지는 진행하지 못하여 별도의 문서는 작성하지 않았습니다.
-   - BELIVVR의 Spoke프로젝트(https://github.com/belivvr/spoke)에서 제공하는 EmptyFrame 컴포넌트와 BELIVVR의 reticulum 프로젝트(https://github.com/belivvr/reticulum)에서 추가한 커스텀 API를 이용해야 합니다.
+   - BELIVVR의 Spoke프로젝트(https://github.com/luke-n-alpha/spoke)에서 제공하는 EmptyFrame 컴포넌트와 BELIVVR의 reticulum 프로젝트(https://github.com/luke-n-alpha/reticulum)에서 추가한 커스텀 API를 이용해야 합니다.
    - 관련한 TypeScript의 소스를 첨부 드리니 사용하실 분들을 해당 [소스코드](./cnu_reticulum/)를 분석해서 사용하시기 바랍니다.      
 
      <img src="./images/cnu_empty_frame.png" alt="CNU 빈프레임"/>        

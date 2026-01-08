@@ -43,7 +43,7 @@
 <img src="./docs/images/xrcloud_dashboard.png" alt="XRCLOUD service dashboard">
 
 ## OpenAPI Service for Developers (xrcloud)
-* Provides APIs for managing projects, scenes, and rooms for 3rd party developers. For API details, please refer to the [XRCLOUD API Documentation](https://github.com/belivvr/xrcloud-backend/blob/main/docs/api/en/api.md).
+* Provides APIs for managing projects, scenes, and rooms for 3rd party developers. For API details, please refer to the [XRCLOUD API Documentation](https://github.com/luke-n-alpha/xrcloud-backend/blob/main/docs/api/en/api.md).
 * Provides APIs related to 3rd party members, allowing the creation of a creative platform through separate user management on the 3rd party developer's platform.
 * It is possible to give differentiated permissions by dividing host and guest users.
 * It is possible to generate expiring private URLs and continuously public URLs.
@@ -64,7 +64,7 @@
 <img src="./docs/images/xrcloud_roomlog.png" alt="XRCLOUD service logging">
 
 ## Full-body Avatar (hubs)
-* Supports [BELIVVR's open-source full-body avatar editor](https://github.com/belivvr/xrcloud-avatar-editor).
+* Supports [BELIVVR's open-source full-body avatar editor](https://github.com/luke-n-alpha/xrcloud-avatar-editor).
   * This avatar project is not designed considering Bit-ecs, so it does not support all features of Hubs.
 
 <img src="./docs/images/xrcloud_fullbody.png" alt="XRCLOUD service full-body avatar">

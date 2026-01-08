@@ -38,40 +38,40 @@
 ## XRCLOUD 프로젝트
  ### XRCLOUD 백엔드 프로젝트 
   * API다큐먼트와 백앤드 API를 담당합니다. Nest.js 프레임 워크로 개발되었습니다.
-  * Repository : https://github.com/belivvr/xrcloud-backend.git
+  * Repository : https://github.com/luke-n-alpha/xrcloud-backend.git
  
  ### XRCLOUD 프론트엔드 프로젝트
   * XRCLOUD의 대시보드와 같은 프론트 서비스를 담당합니다. Next.js 프레임 워크로 개발되었습니다.
-  * Repository : https://github.com/belivvr/xrcloud-frontend.git
+  * Repository : https://github.com/luke-n-alpha/xrcloud-frontend.git
 
  ### XRCLOUD NGINX 프로젝트
   * XRCLOUD의 네트워크 서비스를 담당합니다. NGINX로 개발되어 있으며, 외부의 억세스와 내부의 Docker컨테이너들을 연결하는 역할을 합니다.
-  * Repository : https://github.com/belivvr/xrcloud-nginx.git
+  * Repository : https://github.com/luke-n-alpha/xrcloud-nginx.git
  
 ## Hubs 프로젝트
   ### Hubs All in One 프로젝트
    * Hubs와 관려된 Docker들의 전체 설치, 운용 등을 담당합니다.
    * 설치에 필요한 환경설정 파일을 만들고, 설치/배포를 할 수 있습니다.
-   * https://github.com/belivvr/hubs-all-in-one.git
+   * https://github.com/luke-n-alpha/hubs-all-in-one.git
   
   ### Dialog 프로젝트
    * Dialog 프로젝트는 Hubs의 WebRTC 서비스를 담당하여 SFU방식으로 사용자의 룸 접속과 네트워크 중계를 담당합니다. Mediasoup기반으로 개발되어있습니다.
    * 수평확장에 관련한 개발을 진행하지 못해 한계가 있지만 사용자 증가를 고려하여 Hubs프로젝트에서 별도의 서버에서 실행할 수 있습니다.
-   * https://github.com/belivvr/dialog.git
+   * https://github.com/luke-n-alpha/dialog.git
 
   ### Hubs 프로젝트
    * Hubs 프로젝트는 Hubs의 2D환경과 3D룸 환경을 담당하는 프론트 서비스 입니다. A-frame과 Bit-ECS기반으로 개발되어있습니다.
    * BELIVVR에서 개발한 각종 기능을 포함하여 커스터마이징 되어있습니다.
-   * https://github.com/belivvr/hubs.git
+   * https://github.com/luke-n-alpha/hubs.git
 
   ### Spoke 프로젝트
    * Hubs의 Scene을 만드는 3D웹 편집기 서비스입니다. BELIVVR에서 개발한 Inline-View 기능을 포함한 기능을 제공합니다.
-   * https://github.com/belivvr/spoke.git
+   * https://github.com/luke-n-alpha/spoke.git
 
   ### Reticulum 프로젝트
    * Reticulum 프로젝트는 Erlang 언어를 쓰는 Phoenix 프레임워크로 개발되어 있으며, Hubs의 접속 채널관리를 하고 사용자들의 각종 이벤트들을 처리합니다.
    * BELIVVR에서 개발한 로깅등을 위해 추가 코드가 삽입되어있습니다.
-   * https://github.com/belivvr/reticulum.git
+   * https://github.com/luke-n-alpha/reticulum.git
 
 # 설치 방법
    
