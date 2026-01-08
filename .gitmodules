@@ -1,0 +1,12 @@
+[submodule "xrcloud-frontend"]
+	path = xrcloud-frontend
+	url = https://github.com/luke-n-alpha/xrcloud-frontend.git
+[submodule "xrcloud-backend"]
+	path = xrcloud-backend
+	url = https://github.com/luke-n-alpha/xrcloud-backend.git
+[submodule "xrcloud-nginx"]
+	path = xrcloud-nginx
+	url = https://github.com/luke-n-alpha/xrcloud-nginx.git
+[submodule "hubs-all-in-one"]
+	path = hubs-all-in-one
+	url = https://github.com/luke-n-alpha/hubs-all-in-one.git
