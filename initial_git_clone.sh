@@ -3,9 +3,9 @@ GIT_TOKEN=$1
 
 # Use authenticated URL if GIT_TOKEN exists, otherwise use public URL
 if [ -n "$GIT_TOKEN" ]; then
-    BASE_URL="https://${GIT_TOKEN}@github.com/belivvr"
+    BASE_URL="https://${GIT_TOKEN}@github.com/luke-n-alpha"
 else
-    BASE_URL="https://github.com/belivvr"
+    BASE_URL="https://github.com/luke-n-alpha"
 fi
 
 git clone ${BASE_URL}/xrcloud-backend.git
