@@ -8,6 +8,9 @@
 # Installation and Operation
 * This project has dependencies on multiple subRepository projects. The XRCLOUD project follows the same license, and projects forked from hubsFoundation follow the licenses of their original projects.
 * For detailed installation and operation methods, please refer to the [Installation and Operation Guide](./docs/installation_guide_en.md).
+* For contributor/ops rules, see [Caret Rules (Human Guide)](./docs/caret-rules.md).
+* For production recovery notes, see [Ops Status](./docs/ops-status.md) and [Ops Recovery Plan](./docs/ops-recovery-plan.md).
+* For open-source documentation checks, see [OSS Documentation Review](./docs/oss-docs-review.md).
 
 # License and Patents
 * Subprojects including hubs follow the licenses of their original projects.

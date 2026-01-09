@@ -14,6 +14,8 @@ certs/
 
 postgrest/postgrest.conf
 nginx/nginx.conf
+**/nginx.conf
+!**/nginx.conf.sample
 
 # Ignore proxy directory and its contents
 proxy/*.log

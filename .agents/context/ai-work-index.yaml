@@ -1,4 +1,13 @@
 version: 1
-categories: []
+categories:
+  - name: ops-recovery
+    keywords: [recovery, restore, incident, ssl, tls, nginx, docker]
+    quickref: .agents/context/workflows/ops-recovery.md
+  - name: submodules
+    keywords: [submodule, git, checkout, update]
+    quickref: .agents/context/workflows/submodules.md
+  - name: docs-oss
+    keywords: [documentation, open-source, license, security]
+    quickref: .agents/context/workflows/docs-oss.md
 notes:
-  - Add workflow categories and references here.
+  - Keep workflows concise and focused; load only on demand.

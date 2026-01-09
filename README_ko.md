@@ -8,6 +8,9 @@
 # 설치 및 운용 방법 
  * 본 프로젝트는 여러 subRepository의 프로젝트에 의존성이 있습니다. XRCLOUD 프로젝트는 동일한 라이선스를 따르며, hubsFoundation에서 fork한 프로젝트는 원본 프로젝트의 라이센스를 따릅니다.
  * 상세한 설치 및 운용 방법은 [설치 및 운용 가이드](./docs/installation_guide_ko.md) 를 참고 바랍니다.
+ * 기여/운영 규칙은 [Caret 규칙 (사람용 가이드)](./docs/caret-rules_ko.md)를 참고하세요.
+ * 운영 현황/복구 계획은 [운영 현황](./docs/ops-status_ko.md)과 [운영 복구 계획](./docs/ops-recovery-plan_ko.md)을 참고하세요.
+ * 오픈소스 문서 점검은 [오픈소스 문서 검토](./docs/oss-docs-review_ko.md)를 참고하세요.
  
 # 라이선스 및 특허
 * hubs를 포함한 subProject들은 각 원본 프로젝트들의 라이센스를 따릅니다.

@@ -1,20 +1,25 @@
 {
 	"project_identity": {
-		"name": "ProjectName",
+		"name": "XRCLOUD",
 		"symbol": "^",
-		"nature": "Describe the project",
-		"philosophy": "Describe the philosophy"
+		"nature": "Open-source metaverse service based on Hubs with XRCLOUD backend/frontend and a hubs-all-in-one stack.",
+		"philosophy": "Minimal, traceable changes; preserve production stability; never expose secrets or private infrastructure details."
 	},
 	"architecture_rules": {
 		"modification_levels": {
-			"L1_independent": "List directories with full freedom",
-			"L2_conditional": "List directories with constraints",
-			"L3_direct": "List directories requiring full documentation"
+			"L1_independent": "docs/, work-logs/, scripts and notes that do not affect runtime.",
+			"L2_conditional": "Root scripts, docker helpers, and README/docs that describe operations.",
+			"L3_direct": "hubs-all-in-one/, xrcloud-backend/, xrcloud-frontend/, xrcloud-nginx/ (runtime-critical; document changes)."
 		},
 		"protection_rules": {
-			"protected_directories": [],
-			"comment_required": "",
-			"max_changes": ""
+			"protected_directories": [
+				"**/.env*",
+				"**/certs",
+				"**/*.pem",
+				"**/nginx.conf"
+			],
+			"comment_required": "Explain production impact for changes to runtime scripts or server configs.",
+			"max_changes": "Prefer minimal, targeted edits; avoid refactors without explicit approval."
 		}
 	},
 	"ai_workflow": {
