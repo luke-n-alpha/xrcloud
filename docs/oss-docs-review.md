@@ -5,6 +5,7 @@
 - No `.env*` content, certs, keys, or private endpoints.
 - Example configs use placeholders.
 - Runtime `nginx.conf` is replaced by `nginx.conf.sample`.
+- Generated configs (`reticulum/config/*.exs`, submodule `.env*`) must not be committed if they contain credentials.
 
 ## Compliance Checklist
 - LICENSE/NOTICE referenced from README.

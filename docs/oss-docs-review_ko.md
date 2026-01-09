@@ -5,6 +5,7 @@
 - `.env*`, 인증서, 키, 내부 전용 엔드포인트 미포함.
 - 예시 설정은 플레이스홀더로 작성.
 - 런타임 `nginx.conf`는 `nginx.conf.sample`로 대체 공개.
+- 생성된 설정(`reticulum/config/*.exs`, 서브모듈 `.env*`)에 자격증명이 포함되면 커밋 금지.
 
 ## 준수 체크리스트
 - README에서 LICENSE/NOTICE 연결.

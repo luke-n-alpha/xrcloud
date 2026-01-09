@@ -21,14 +21,17 @@ Last updated: 2026-01-08
 - Some cert/key paths were directories instead of files, causing NGINX startup failures.
 - Submodule pointers were out of sync with upstream in `reticulum` and `spoke`.
  - External HTTPS endpoints reported unstable because hubs-all-in-one containers were not running.
+ - Certbot dry-run failed for HTTP-01 challenges (port 80 connection refused).
 
 ## Actions Taken
 - Restored cert/key files and nginx.conf files from backups.
 - Fixed cert/key mounts to point to files, not directories.
 - Updated hubs-all-in-one submodule pointers and pushed upstream.
  - Regenerated runtime files via scripts where possible.
+ - Fixed deploy hook to copy renewed certs into runtime paths.
 
 ## Open Items
 - Validate HTTPS endpoints externally.
 - Review open-source docs for security-sensitive content (no secrets).
  - Confirm which runtime files should be regenerated vs. backed up.
+ - Ensure port 80 serves `/.well-known/acme-challenge/` for Certbot webroot.
