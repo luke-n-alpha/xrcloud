@@ -14,6 +14,7 @@ Last updated: 2026-01-08
 - This host is live service. Changes must be minimal and reversible.
 - `.env*` and `certs/` are not tracked in git; use backups to restore.
 - `nginx.conf` files are runtime-critical and should not be modified without a clear plan.
+ - In hubs-all-in-one submodules, `.env`, `nginx.conf`, and `certs/` are script-generated; avoid backing up everything.
 
 ## Observed Issues (Recent)
 - TLS failures occurred in hubs-all-in-one due to broken cert/key mounts.

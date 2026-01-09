@@ -10,6 +10,7 @@
 2) cert SAN에 `room.xrcloud.app` 포함 여부 확인
 3) 영향 범위만 재시작 후 로그 정상 여부 확인
 4) 가능하면 스크립트로 `.env`, `nginx.conf`, `certs/` 재생성
+5) 필요한 최소 항목만 백업하고, 생성 파일은 전체 복사하지 않습니다.
 
 ## 서브모듈 정합성
 1) `git submodule update --init --recursive` 실행

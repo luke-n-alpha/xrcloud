@@ -10,6 +10,7 @@
 2) Ensure cert SANs include `room.xrcloud.app` where required.
 3) Restart only affected containers and confirm logs are clean.
 4) Prefer regeneration of `.env`, `nginx.conf`, and `certs/` via scripts when available.
+5) Back up only minimal required artifacts; avoid wholesale copying of generated files.
 
 ## Submodule Integrity
 1) Run `git submodule update --init --recursive`.
